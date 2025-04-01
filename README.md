@@ -2,6 +2,7 @@
 
 Projet de la Mention IA – CentraleSupélec  
 Encadré par Hédi Hadiji — Avril 2025
+Groupe: Quentin Lemboulas, Théo Michel, Paul Le Bolloch
 
 ## 🎯 Objectif du projet
 
