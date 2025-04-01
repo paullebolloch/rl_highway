@@ -14,7 +14,7 @@ config_dict = {
     "vehicles_count": 2,
     "duration": 100,
     "collision_reward": -2,
-    "reward_type": "dense", 
+    "reward_type": "dense", # récompense à chaque étape
     "goal_reward": 1.0,
     "distance_reward": 0.1,
     "simulation_frequency": 15,   # plus bas = plus lent
