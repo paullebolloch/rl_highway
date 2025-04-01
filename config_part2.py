@@ -14,8 +14,8 @@ config_dict = {
     "policy_frequency": 5,         # fréquence des actions (doit diviser simulation_frequency)
     "duration": 40,                # nombre d'étapes max par épisode
     "vehicles_count": 8,           # autres véhicules sur l’intersection
-    "initial_vehicle_count": 1,    # ton agent uniquement au début
-    "controlled_vehicles": 1,      # nombre d’agents RL (souvent 1)
+    "initial_vehicle_count": 1,    
+    "controlled_vehicles": 1,      # nombre d’agents RL
     "collision_reward": -1.0,
     "reward_speed_range": [4, 6],
     "reward_type": "dense",        # plus stable qu’un reward sparse
