@@ -28,5 +28,5 @@ config_dict = {
 }
 
 # Sauvegarde dans un fichier .pkl
-with open("config_part3.pkl", "wb") as f:
+with open("config_part2.pkl", "wb") as f:
     pickle.dump(config_dict, f)

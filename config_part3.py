@@ -28,7 +28,7 @@ config_dict = {
     "offscreen_rendering": False
 }
 
-with open("config_part2.pkl", "wb") as f:
+with open("config_part3.pkl", "wb") as f:
     pickle.dump(config_dict, f)
 
 #env = gym.make("parking-v0", render_mode="rgb_array")
