@@ -9,7 +9,7 @@ Groupe: Quentin Lemboulas, Théo Michel, Paul Le Bolloch
 Implémenter trois agents RL dans des environnements de conduite simulée :
 
 1. **Tâche 1 – Implémentation DQN avec environnement discret spécifié** 
-2. **Tâche 2 – Implémentation avec actions continues**
+2. **Tâche 2 – Implémentation d'un DDPG avec actions continues**
 3. **Tâche 3 – Utilisation de StableBaselines dans un nouvel environnement**
 
 ---
@@ -24,13 +24,13 @@ Implémenter trois agents RL dans des environnements de conduite simulée :
 - Action : `DiscreteMetaAction`
 - Implémentation DQN
 
-### 🔹 `config_part3.pkl` – **Tâche 2**
-- Environnement : `highway-v0`
-- Observation : `Kinematics` (normalisée)
+### 🔹 `config_part2.pkl` – **Tâche 2**
+- Environnement : `racetrackv0`
+- Observation : `OccupancyGrid` (normalisée)
 - Action : `ContinuousAction`
 - Implémentation d’un algo pour actions continues
 
-### 🔹 `config_part2.pkl` – **Tâche 3**
+### 🔹 `config_part3.pkl` – **Tâche 3**
 - Environnement : `parking-v0`
 - Observation : `KinematicsGoal`
 - Action : `ContinuousAction`
